@@ -29,7 +29,7 @@ Convert file âm thanh tới WAV
 
 **Bước 2**. Chọn Convert tới WAV
 
-**Bước 3**.  Chọn "Chọn tệp" sau đó chọn file cần convert
+**Bước 3**.  Chọn "Choose Files" và chọn file cần convert
 
 .. image:: /images/audioconvert/choosefile.PNG
 
@@ -41,24 +41,24 @@ Convert file âm thanh tới WAV
 
 
 ---------------
-Tải file âm thanh vào hệ thống autocall
+Upload file âm thanh vào hệ thống autocall
 ---------------
 
-Chọn tải âm thanh vào hệ thống với một trong hai cách: 
+Chọn upload file âm thanh vào hệ thống với một trong hai cách: 
 
-#. Cách 1:  Chọn vào biểu tượng sau trong menu Dashboard.
+#. Chọn vào biểu tượng trong menu Dashboard.
 
 .. image:: /images/user/dashboard/voice.PNG
  
-Ấn "Browse", chọn file âm thanh WAV vừa convert sau đó chọn Submit để upload file ghi âm vào hệ thống.
+Ấn "Browse", chọn file âm thanh WAV. Và sau đó chọn Submit để upload file ghi âm vào hệ thống.
 
 .. image:: /images/user/voice/upload.PNG
 
-#. Cách 2: Chọn "Add A Voice" trong menu Voice. 
+#. Chọn "Add A Voice" trong menu Voice. 
 
 .. image:: /images/user/voice/home.PNG
 
-Ấn "Browse", chọn file âm thanh WAV vừa convert sau đó chọn Submit để upload file ghi âm vào hệ thống.
+Ấn "Browse", chọn file âm thanh WAV. Và sau đó chọn Submit để upload file ghi âm vào hệ thống.
 
 .. image:: /images/user/voice/upload.PNG
 
@@ -76,7 +76,7 @@ Import danh sách Contact
 
 **Bước 1**. Chọn "Add Contact" trong menu Contact:
 
-.. image:: /images/user/contact/home.png
+.. image:: /images/user/contact/home.PNG
 
 **Bước 2**. Điền đầy đủ thông tin sau để import danh sách contact 
 
@@ -88,7 +88,7 @@ Import danh sách Contact
 
 * *Description* -- Mô tả thông tin của danh sách đang import.
 
-.. image:: /images/user/contact/upload.png
+.. image:: /images/user/contact/upload.PNG
 
 ---------------
 Mẫu File CSV Import
@@ -107,11 +107,11 @@ Tạo campaign để chạy chiến dịch
 
 Tạo campaign với một trong hai cách: 
 
-#. Cách 1:  Chọn vào biểu tượng sau trong menu Dashboard.
+#. Chọn vào biểu tượng sau trong menu Dashboard.
 
 .. image:: /images/user/dashboard/campaign.PNG
  
-#. Cách 2: Chọn "Add A Campaign" trong menu Campaign. 
+#. Chọn "Add A Campaign" trong menu Campaign. 
 
 .. image:: /images/user/campaign/home.PNG
 
@@ -126,7 +126,7 @@ Tạo campaign với một trong hai cách:
 
 * *Submit* -- Nhấn Submit để hoàn thành tiến trình tạo chiến dịch. 
 
-.. image:: /images/user/campaign/createcampaign.png
+.. image:: /images/user/campaign/createcampaign.PNG
 
 
 Chạy campaign autocall  
@@ -134,11 +134,11 @@ Chạy campaign autocall
 
 **Bước 1**. Chọn menu Campaign:
 
-.. image:: /images/user/campaign/menu.png
+.. image:: /images/user/campaign/menu.PNG
 
 **Bước 2**. Chọn chiện dịch trong danh sách và click vào icon run
 
-.. image:: /images/user/campaign/runcampaign.png
+.. image:: /images/user/campaign/runcampaign.PNG
 
 **Bước 3**. Chọn các options sau để chạy autocall 
 
@@ -148,7 +148,7 @@ Chạy chiến dịch
 
 * *Continue run* -- Chiến dịch chạy với danh sách contact đã được gán trước đó. 
 
-.. image:: /images/user/campaign/runcampaignoption1.png
+.. image:: /images/user/campaign/runcampaignoption1.PNG
 
 ---------------
 Tái sử dụng chiến dịch 
@@ -156,21 +156,21 @@ Tái sử dụng chiến dịch
 
 * *Choose contact list* -- Chọn lại contact trong tập danh sách contact có sẵn để chạy chiến dịch.  
 
-.. image:: /images/user/campaign/runcampaignoption2.png
+.. image:: /images/user/campaign/runcampaignoption2.PNG
 
 Chọn contact trong danh sách và Submit
 
-.. image:: /images/user/campaign/runcampaignoption2contact.png
+.. image:: /images/user/campaign/runcampaignoption2contact.PNG
 
 Chiến dịch chạy với danh sách contact mới. 
 
 * *Upload file* -- Import danh sách contact mới cho chiến dịch 
 
-.. image:: /images/user/campaign/runcampaignoption3.png
+.. image:: /images/user/campaign/runcampaignoption3.PNG
 
 Ấn Browser để import contact và Submit
 
-.. image:: /images/user/campaign/runcampaignoption3contact.png
+.. image:: /images/user/campaign/runcampaignoption3contact.PNG
 
 Chiến dịch chạy với danh sách contact mới. 
 
@@ -181,10 +181,10 @@ Report
 
 Tại menu Dashboard, chọn campaign để xem biểu đồ thống kê
 
-.. image:: /images/user/dashboard/report01.png
+.. image:: /images/user/dashboard/report01.PNG
 
-.. image:: /images/user/dashboard/report02.png
+.. image:: /images/user/dashboard/report02.PNG
 
 Tại menu Report, chọn campaign để xem thống kê chi tiết
 
-.. image:: /images/user/report.png
+.. image:: /images/user/report.PNG
