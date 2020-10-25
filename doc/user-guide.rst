@@ -25,8 +25,8 @@ Truy cập vào trang web quản trị, sau đó nhập username và password đ
 ********************
 
 
-2.1 Convert file âm thanh tới WAV
----------------------------------
+2.1. Convert file âm thanh tới WAV
+----------------------------------
 
 
 **Bước 1**. Truy cập vào trang web sau: ``https://audio.online-convert.com/``
@@ -49,13 +49,13 @@ Truy cập vào trang web quản trị, sau đó nhập username và password đ
 **Bước 5**. Ấn "Start conversion", sau đó đợi tải về.
 
 
-2.2 Upload file âm thanh vào hệ thống autocall
-----------------------------------------------
+2.2. Upload file âm thanh vào hệ thống autocall
+-----------------------------------------------
 
 
 Chọn upload file âm thanh vào hệ thống với một trong hai cách: 
 
-#. Chọn vào biểu tượng trong menu Dashboard.
+**Cách 1**. Chọn vào biểu tượng trong menu Dashboard.
 
 .. image:: /images/user/dashboard/voice.PNG
    :align: center
@@ -65,7 +65,7 @@ Chọn upload file âm thanh vào hệ thống với một trong hai cách:
 .. image:: /images/user/voice/upload.PNG
    :align: center
 
-#. Chọn "Add A Voice" trong menu Voice. 
+**Cách 2**. Chọn "Add A Voice" trong menu Voice. 
 
 .. image:: /images/user/voice/home.PNG
    :align: center
@@ -86,8 +86,8 @@ Chọn upload file âm thanh vào hệ thống với một trong hai cách:
     Hệ thống chỉ cho phép định dạng import là CSV. 
 
 
-3.1 Import danh sách Contact
-----------------------------
+3.1. Import danh sách Contact
+-----------------------------
 
 
 **Bước 1**. Chọn "Add Contact" trong menu Contact:
@@ -109,16 +109,20 @@ Chọn upload file âm thanh vào hệ thống với một trong hai cách:
    :align: center
 
 
-3.2 Mẫu File CSV Import
------------------------
+3.2. Mẫu File CSV Import
+------------------------
 
 
 Format mẫu file CSV như sau:
 
 .. csv-table:: Mẫu Contact CSV
-   :file: /images/user/contact/contacts.csv
+   :widths: 30
    :align: center
-   :widths: auto
+
+   "762847950"
+   "762847951"
+   "762847952"
+   "762847953"
 
 
 **********************************
@@ -128,12 +132,12 @@ Format mẫu file CSV như sau:
 
 Tạo campaign với một trong hai cách: 
 
-#. Chọn vào biểu tượng sau trong menu Dashboard.
+**Cách 1**. Chọn vào biểu tượng sau trong menu Dashboard.
 
 .. image:: /images/user/dashboard/campaign.PNG
    :align: center
  
-#. Chọn "Add A Campaign" trong menu Campaign. 
+**Cách 2**. Chọn "Add A Campaign" trong menu Campaign. 
 
 .. image:: /images/user/campaign/home.PNG
    :align: center
