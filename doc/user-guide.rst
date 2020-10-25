@@ -1,5 +1,7 @@
-H1 -- Hướng dẫn người sử dụng
-*****************************
+#######################
+Hướng dẫn người sử dụng
+#######################
+
 
 Hướng dẫn sử dụng này bao gồm sử dụng giao diện web của user.
 
@@ -7,8 +9,10 @@ Một số tính năng UI web liên quan đến quản trị chỉ khả dụng 
 người dùng có phân quyền là admin và đây là tài liệu trong :doc:`admin-guide`.
 
 
-H2 -- Đăng nhập
-===============
+************
+1. Đăng nhập
+************
+
 
 Truy cập vào trang web quản trị, sau đó nhập username và password đã được cung cấp, ấn Login
 
@@ -16,12 +20,14 @@ Truy cập vào trang web quản trị, sau đó nhập username và password đ
    :align: center
 
 
-H2 -- Tạo file âm thanh 
-=======================
+********************
+2. Tạo file âm thanh 
+********************
 
 
-H3 -- Convert file âm thanh tới WAV
------------------------------------
+2.1 Convert file âm thanh tới WAV
+---------------------------------
+
 
 **Bước 1**. Truy cập vào trang web sau: ``https://audio.online-convert.com/``
 
@@ -43,8 +49,9 @@ H3 -- Convert file âm thanh tới WAV
 **Bước 5**. Ấn "Start conversion", sau đó đợi tải về.
 
 
-H3 -- Upload file âm thanh vào hệ thống autocall
-------------------------------------------------
+2.2 Upload file âm thanh vào hệ thống autocall
+----------------------------------------------
+
 
 Chọn upload file âm thanh vào hệ thống với một trong hai cách: 
 
@@ -69,16 +76,19 @@ Chọn upload file âm thanh vào hệ thống với một trong hai cách:
    :align: center
 
 
-H2 -- Import danh sách Contact vào hệ thống 
-===========================================
+****************************************
+3. Import danh sách Contact vào hệ thống 
+****************************************
+
 
 .. note::
 
     Hệ thống chỉ cho phép định dạng import là CSV. 
 
 
-H3 -- Import danh sách Contact
-------------------------------
+3.1 Import danh sách Contact
+----------------------------
+
 
 **Bước 1**. Chọn "Add Contact" trong menu Contact:
 
@@ -99,19 +109,22 @@ H3 -- Import danh sách Contact
    :align: center
 
 
-H3 -- Mẫu File CSV Import
--------------------------
+3.2 Mẫu File CSV Import
+-----------------------
+
 
 Format mẫu file CSV như sau:
 
 .. csv-table:: Mẫu Contact CSV
    :file: /images/user/contact/contacts.csv
-   :widths: 30, 70
-   :header-rows: 1
+   :align: center
+   :widths: auto
 
 
-H2 -- Tạo campaign để chạy chiến dịch  
-=====================================
+**********************************
+4. Tạo campaign để chạy chiến dịch  
+**********************************
+
 
 Tạo campaign với một trong hai cách: 
 
@@ -124,7 +137,6 @@ Tạo campaign với một trong hai cách:
 
 .. image:: /images/user/campaign/home.PNG
    :align: center
-
 
 Điền đầy đủ thông tin sau để tạo chiến dịch mới:
 
@@ -140,8 +152,10 @@ Tạo campaign với một trong hai cách:
    :align: center
 
 
-H2 -- Chạy campaign autocall  
-============================
+*************************
+5. Chạy campaign autocall  
+*************************
+
 
 **Bước 1**. Chọn menu Campaign:
 
@@ -156,45 +170,38 @@ H2 -- Chạy campaign autocall
 **Bước 3**. Chọn các options sau để chạy autocall 
 
 
-Chạy chiến dịch 
-+++++++++++++++
-
 * *Continue run* -- Chiến dịch chạy với danh sách contact đã được gán trước đó. 
 
 .. image:: /images/user/campaign/runcampaignoption1.PNG
    :align: center
 
 
-Chọn lại contact để chạy chiến dịch 
-+++++++++++++++++++++++++++++++++++
-
 * *Choose contact list* -- Chọn lại contact trong tập danh sách contact có sẵn để chạy chiến dịch.  
 
 .. image:: /images/user/campaign/runcampaignoption2.PNG
    :align: center
 
-Chọn contact trong danh sách và Submit
+Chọn contact trong danh sách và Submit. Chiến dịch chạy với danh sách mới.
 
 .. image:: /images/user/campaign/runcampaignoption2contact.PNG
    :align: center
 
-Chiến dịch chạy với danh sách contact mới. 
 
 * *Upload file* -- Import danh sách contact mới cho chiến dịch 
 
 .. image:: /images/user/campaign/runcampaignoption3.PNG
    :align: center
 
-Ấn Browser để import contact và Submit
+Ấn Browser để import contact và Submit. Chiến dịch chạy với danh sách mới
 
 .. image:: /images/user/campaign/runcampaignoption3contact.PNG
    :align: center
 
-Chiến dịch chạy với danh sách contact mới. 
 
+*********
+6. Report  
+*********
 
-H2 -- Report  
-============
 
 Tại menu Dashboard, chọn campaign để xem biểu đồ thống kê
 
