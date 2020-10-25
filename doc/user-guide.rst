@@ -1,6 +1,5 @@
-==========
-Hướng dẫn người sử dụng
-==========
+H1 -- Hướng dẫn người sử dụng
+*****************************
 
 Hướng dẫn sử dụng này bao gồm sử dụng giao diện web của user.
 
@@ -8,8 +7,8 @@ Một số tính năng UI web liên quan đến quản trị chỉ khả dụng 
 người dùng có phân quyền là admin và đây là tài liệu trong :doc:`admin-guide`.
 
 
-Đăng nhập
-======================================
+H2 -- Đăng nhập
+===============
 
 Truy cập vào trang web quản trị, sau đó nhập username và password đã được cung cấp, ấn Login
 
@@ -17,12 +16,12 @@ Truy cập vào trang web quản trị, sau đó nhập username và password đ
    :align: center
 
 
-Tạo file âm thanh 
-======================================
+H2 -- Tạo file âm thanh 
+=======================
 
----------------
-Convert file âm thanh tới WAV
----------------
+
+H3 -- Convert file âm thanh tới WAV
+-----------------------------------
 
 **Bước 1**. Truy cập vào trang web sau: ``https://audio.online-convert.com/``
 
@@ -44,9 +43,8 @@ Convert file âm thanh tới WAV
 **Bước 5**. Ấn "Start conversion", sau đó đợi tải về.
 
 
----------------
-Upload file âm thanh vào hệ thống autocall
----------------
+H3 -- Upload file âm thanh vào hệ thống autocall
+------------------------------------------------
 
 Chọn upload file âm thanh vào hệ thống với một trong hai cách: 
 
@@ -71,16 +69,16 @@ Chọn upload file âm thanh vào hệ thống với một trong hai cách:
    :align: center
 
 
-Import danh sách Contact vào hệ thống 
-======================================
+H2 -- Import danh sách Contact vào hệ thống 
+===========================================
 
 .. note::
 
     Hệ thống chỉ cho phép định dạng import là CSV. 
 
----------------
-Import danh sách Contact
----------------
+
+H3 -- Import danh sách Contact
+------------------------------
 
 **Bước 1**. Chọn "Add Contact" trong menu Contact:
 
@@ -100,9 +98,9 @@ Import danh sách Contact
 .. image:: /images/user/contact/upload.PNG
    :align: center
 
----------------
-Mẫu File CSV Import
----------------
+
+H3 -- Mẫu File CSV Import
+-------------------------
 
 Format mẫu file CSV như sau:
 
@@ -112,8 +110,8 @@ Format mẫu file CSV như sau:
    :header-rows: 1
 
 
-Tạo campaign để chạy chiến dịch  
-======================================
+H2 -- Tạo campaign để chạy chiến dịch  
+=====================================
 
 Tạo campaign với một trong hai cách: 
 
@@ -142,8 +140,8 @@ Tạo campaign với một trong hai cách:
    :align: center
 
 
-Chạy campaign autocall  
-======================================
+H2 -- Chạy campaign autocall  
+============================
 
 **Bước 1**. Chọn menu Campaign:
 
@@ -157,18 +155,18 @@ Chạy campaign autocall
 
 **Bước 3**. Chọn các options sau để chạy autocall 
 
----------------
+
 Chạy chiến dịch 
----------------
++++++++++++++++
 
 * *Continue run* -- Chiến dịch chạy với danh sách contact đã được gán trước đó. 
 
 .. image:: /images/user/campaign/runcampaignoption1.PNG
    :align: center
 
----------------
-Tái sử dụng chiến dịch 
----------------
+
+Chọn lại contact để chạy chiến dịch 
++++++++++++++++++++++++++++++++++++
 
 * *Choose contact list* -- Chọn lại contact trong tập danh sách contact có sẵn để chạy chiến dịch.  
 
@@ -195,9 +193,8 @@ Chiến dịch chạy với danh sách contact mới.
 Chiến dịch chạy với danh sách contact mới. 
 
 
-
-Report  
-======================================
+H2 -- Report  
+============
 
 Tại menu Dashboard, chọn campaign để xem biểu đồ thống kê
 
