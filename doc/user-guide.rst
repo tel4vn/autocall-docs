@@ -14,7 +14,7 @@ người dùng có phân quyền là admin và đây là tài liệu trong :doc:
 Truy cập vào trang web quản trị, sau đó nhập username và password đã được cung cấp, ấn Login
 
 .. image:: /images/dang-nhap.PNG
-:align: center
+   :align: middle
 
 
 Tạo file âm thanh 
