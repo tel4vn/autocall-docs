@@ -1,0 +1,80 @@
+/*body {
+    font-family: "arial" !important;
+}
+*/
+
+/* background of header 3 */
+#table-of-contents > h1, /* hack for toc page */
+h1#search-documentation, /* hack for search page */
+div.body h2,
+div.body p.rubric,
+/* div.section.emphasized > h3,  deprecated in favor of below: */
+div.section.emphasize-children > div.section > h3
+{
+    background: #75c47c;
+}
+
+/* remove border hightlight */
+div.body h2.highlighted,
+ /*div.section.emphasized > h3.highlighted, deprecated in favor of below: */
+div.section.emphasize-children > div.section > h3.highlighted
+{
+   border: 0.25em #75c47c;
+}
+
+/* background of hightlight 3 */
+dt:target,
+.footnote:target,
+.highlighted
+{
+  
+   /*background-color: #fbe54e; */
+   background-color: #75c47c;
+
+}
+
+/* new style of table */
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px !important;
+    border: 1px solid #cccccc !important;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
