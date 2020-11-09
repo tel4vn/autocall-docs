@@ -36,7 +36,7 @@ extensions = [
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-latex_engine = 'xelatex'
+# latex_engine = 'xelatex'
 
 html_static_path = ['_static']
 
@@ -66,11 +66,23 @@ exclude_patterns = []
 #
 html_theme = 'p-greenblue'
 import os
-from PSphinxTheme import utils
+# from PSphinxTheme import utils
 from PSphinxTheme.utils import set_psphinxtheme
 
-p, html_theme, needs_sphinx = utils.set_psphinxtheme(html_theme)
-html_theme_path = p
+'PSphinxTheme.ext.psphinx_admonitions',
+
+'PSphinxTheme.ext.escaped_samp_literals',
+
+'PSphinxTheme.ext.index_styling',
+
+'PSphinxTheme.ext.sidebarlogo_perpag',
+
+'PSphinxTheme.ext.relbar_links',
+
+'PSphinxTheme.ext.table_styling',
+
+
+html_theme_path, html_theme, needs_sphinx = set_psphinxtheme(html_theme)
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -81,12 +93,7 @@ html_theme_path = p
 # }
 
 
-'PSphinxTheme.ext.psphinx_admonitions',
-'PSphinxTheme.ext.escaped_samp_literals',
-'PSphinxTheme.ext.index_styling',
-'PSphinxTheme.ext.sidebarlogo_perpag',
-'PSphinxTheme.ext.relbar_links',
-'PSphinxTheme.ext.table_styling',
+
 
 # [optional] overwrite some of the default options listed above...
 # https://pythonhosted.org/PSphinxTheme/main_theme.html#structure
