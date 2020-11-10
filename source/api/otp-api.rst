@@ -226,6 +226,9 @@ Response
    * - campaign_id
      - Id of campaign 
      - string
+   * - call_id
+     - id of the call which will be used to get status of the call  
+     - string
 
 Example API
 -----------------------
@@ -252,7 +255,116 @@ Example API
         "code": 200,
         "status": true,
         "data": {
-            "campaign_id": "c78af"
+            "campaign_id": "c78af",
+            "call_id": "88aa4744-d567-49fa-88b1-26e09da884a5"
+        }
+    }
+
+.. admonition:: Response Fail 
+
+  .. code-block:: json 
+
+    {
+      "messsage":  "Not Found"
+      "code": 404, 
+      "status": false,
+      "data": {
+        "error":  "detail of error"
+      }
+    }
+
+Trạng Thái Của Cuộc Gọi
+============================
+
+Thông Tin API
+-----------------------
+
+ ::
+
+    GET  api/v1/report/{{call_id}}?user_id={{user_id}}
+    Content-Type :  application/json 
+    Authorization:  {{access_token}}
+
+.. note::
+  :class: admonition-note last admonition
+
+  user_id và access_token: thông tin nhận được từ API tạo access_token
+
+  call_id: thông tin người dùng nhận được từ cuộc gọi otp api 
+
+Response
+-----------------------
+
+.. rst-class:: fullwidth
+
+.. list-table::  
+   :header-rows: 1   
+   :class: styled-table
+ 
+   * - Parameter
+     - Description
+     - Type
+   * - code
+     - status codes of response :200, 400, 404, ….
+     - integer
+   * - data
+     - Main content of response 
+     - object
+
+.. rst-class:: fullwidth
+
+.. list-table::  Data Object 
+   :header-rows: 1   
+   :class: styled-table
+ 
+   * - Parameter
+     - Description
+     - Type
+   * - call_id
+     - id of the call  
+     - string
+   * - campaign_id
+     - Id of campaign 
+     - string
+   * - user_id
+     - Id of user 
+     - string
+   * - duration
+     - duration of the call  
+     - integer
+   * - phone_number
+     - phone number of the callee  
+     - string
+   * - start_time
+     - start time of the call   
+     - string
+   * - status
+     - status of the call such as "Success" or "Fail"
+     - string
+   * - keypress
+     - otp number
+     - string
+
+Example API
+-----------------------
+
+.. admonition:: Response  200 OK 
+
+  .. code-block:: json
+  
+    {
+        "message": "OK",
+        "code": 200,
+        "status": true,
+        "data": {
+            "call_id": "88aa4744-d567-49fa-88b1-26e09da884a5",
+            "campaign_id": "c78af",
+            "duration": 11,
+            "keypress": "123456",
+            "phone_number": "0771122330",
+            "start_time": "2020-11-10 23:23:11",
+            "status": "Success",
+            "user_id": "f461"
         }
     }
 
