@@ -1,2 +1,2 @@
 python_lconf_lexer>=1.1.1
-PSphinxTheme
+PSphinxTheme>=2.0.5

@@ -58,6 +58,8 @@ Response
      - Main content of response 
      - object
 
+.. rst-class:: fullwidth
+
 .. list-table::  Data Object 
    :header-rows: 1   
    :class: styled-table
@@ -152,7 +154,7 @@ Body Request
      - Type
      - Require
      - Default Value
-   * - userid
+   * - user_id
      - Id of user
      - string
      - Yes
@@ -188,7 +190,7 @@ Body Request
 .. note::
   :class: admonition-note last admonition
 
-  userid và access_token: thông tin nhận được từ API tạo access_token
+  user_id và access_token: thông tin nhận được từ API tạo access_token
 
   campaign_id: người dùng nhận từ web quản lý hoặc được nhận từ nhà cung cấp
 
@@ -270,15 +272,11 @@ Example API
 Status Codes
 ============================
 
-Standard HTTP status codes.
+Standard HTTP status codes ::
 
-===== =====
-Code  Name
-===== =====
-200   OK                 
-400   Bad Request     
-401   Unauthorized
-403   Forbidden 
-404   Not Found          
-500   Service Error           
-===== =====
+  200: OK 
+  400: Bad Request 
+  401: Unauthorized
+  403: Forbidden
+  404: Not Found 
+  500: Service Error
