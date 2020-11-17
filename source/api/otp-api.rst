@@ -238,7 +238,7 @@ Example API
   .. code-block:: json
 
     {
-      "userid": "f461", 
+      "user_id": "f461", 
       "contact": 
       {
         "phone_number": "0771122330", 
