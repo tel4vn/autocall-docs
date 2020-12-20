@@ -2,7 +2,6 @@
 OTP Voice Autocall API
 **************************
 
-
 Tạo Access Token 
 ============================
 
@@ -143,6 +142,7 @@ Thông Tin API
 
 Body Request
 -----------------------
+
 .. rst-class:: fullwidth
 
 .. list-table:: 
@@ -244,7 +244,7 @@ Example API
 
     {
       "user_id": "f461",
-      "callback_url": "https://example.com/hooks",
+      "callback_url": "https://example.com",
       "contact": 
       {
         "phone_number": "0771122330", 
@@ -278,6 +278,66 @@ Example API
         "error":  "detail of error"
       }
     }
+
+Request To Callback Url 
+============================
+
+Hệ thống sẽ gọi tới callback url với format sau:
+
+  ::
+  
+    POST  https://example.com
+    Content-Type :  application/json
+
+
+.. admonition:: Body Request 
+
+  .. code-block:: json
+
+    {
+      "call_id": "88aa4744-d567-49fa-88b1-26e09da884a5",
+      "campaign_id": "c78af",
+      "duration": 11,
+      "keypress": "123456",
+      "phone_number": "0771122330",
+      "start_time": "2020-11-10 23:23:11",
+      "status": "Success",
+      "user_id": "f461"
+    }
+
+.. rst-class:: fullwidth
+
+.. list-table::  
+   :header-rows: 1   
+   :class: styled-table
+ 
+   * - Parameter
+     - Description
+     - Type
+   * - call_id
+     - id of the call  
+     - string
+   * - campaign_id
+     - Id of campaign 
+     - string
+   * - user_id
+     - Id of user 
+     - string
+   * - duration
+     - duration of the call  
+     - integer
+   * - phone_number
+     - phone number of the callee  
+     - string
+   * - start_time
+     - start time of the call   
+     - string
+   * - status
+     - status of the call such as "Success" or "Fail"
+     - string
+   * - keypress
+     - otp number
+     - string
 
 Trạng Thái Của Cuộc Gọi
 ============================
