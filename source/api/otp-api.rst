@@ -158,7 +158,12 @@ Body Request
      - Id of user
      - string
      - Yes
-     - 
+     -
+   * - callback_url
+     - callback url 
+     - string
+     - No
+     -
    * - contact
      - Object contains phone number and otp voice 
      - object
@@ -238,7 +243,8 @@ Example API
   .. code-block:: json
 
     {
-      "user_id": "f461", 
+      "user_id": "f461",
+      "callback_url": "https://example.com/hooks",
       "contact": 
       {
         "phone_number": "0771122330", 
