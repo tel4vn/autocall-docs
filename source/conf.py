@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Autocall'
-copyright = '2020, TEL4VN'
-author = 'TEL4VN'
+copyright = '2020, VHT'
+author = 'VHT'
 
 # The full version, including alpha/beta/rc tags
 release = 'v1.0'
