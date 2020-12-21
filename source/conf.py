@@ -104,9 +104,9 @@ html_theme_options = {
 					"sidebar_localtoc_title": "Content",
 					"bodyfont": "arial"}
 
-html_logo = os.path.join('_static', 'logo.jpg')
+html_logo = os.path.join('_static', 'logo.png')
 
-html_favicon = os.path.join('_static', 'logo.jpg')
+html_favicon = os.path.join('_static', 'logo.png')
 
 # The api document: extension: relbar_links
 relbar_links_doc = [
