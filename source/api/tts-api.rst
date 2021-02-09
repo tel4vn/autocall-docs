@@ -259,7 +259,7 @@ Example 2
 
     {
       "userid": "f461", 
-      "content": "Kính chào quý khách {{khach_hang_name}}, cảm ơn quý khách đã sử dụng dịch vụ tổng đài nội bộ của VHT.  Dịch vụ của quý khách đến hạn thanh toán vào ngày {{ngay_thanh_toan}}. Quý khách vui long thanh toán trong hôm nay, hoặc chậm nhất là ngày mai với số tiền là {{tien_thanh_toan}}. Quý khách cần hỗ trợ thêm thông tin,  vui lòng liên hệ số điện thoại 1 8 0 0, 1 5 6 2. Xin cảm ơn quý khách."
+      "content": "Kính chào quý khách {{khach_hang_name}}, cảm ơn quý khách đã sử dụng dịch vụ tổng đài nội bộ của TEL4VN.  Dịch vụ của quý khách đến hạn thanh toán vào ngày {{ngay_thanh_toan}}. Quý khách vui long thanh toán trong hôm nay, hoặc chậm nhất là ngày mai với số tiền là {{tien_thanh_toan}}. Quý khách cần hỗ trợ thêm thông tin,  vui lòng liên hệ số điện thoại 1 8 0 0, 1 5 6 2. Xin cảm ơn quý khách."
     }
 
 .. note::
@@ -479,7 +479,7 @@ Request để run autocall như sau:
 Example 2
 +++++++++++++++++++++++
 
-Với đoạn text người dùng import vào campaign: *"Kính chào quý khách {{khach_hang_name}}, cảm ơn quý khách đã sử dụng dịch vụ tổng đài nội bộ của VHT.  Dịch vụ của quý khách đến hạn thanh toán vào ngày {{ngay_thanh_toan}}. Quý khách vui long thanh toán trong hôm nay, hoặc chậm nhất là ngày mai với số tiền là {{tien_thanh_toan}}. Quý khách cần hỗ trợ thêm thông tin,  vui lòng liên hệ số điện thoại 1 8 0 0, 1 5 6 2. Xin cảm ơn quý khách.".*  
+Với đoạn text người dùng import vào campaign: *"Kính chào quý khách {{khach_hang_name}}, cảm ơn quý khách đã sử dụng dịch vụ tổng đài nội bộ của TEL4VN.  Dịch vụ của quý khách đến hạn thanh toán vào ngày {{ngay_thanh_toan}}. Quý khách vui long thanh toán trong hôm nay, hoặc chậm nhất là ngày mai với số tiền là {{tien_thanh_toan}}. Quý khách cần hỗ trợ thêm thông tin,  vui lòng liên hệ số điện thoại 1 8 0 0, 1 5 6 2. Xin cảm ơn quý khách.".*  
 
 Request để run autocall như sau: 
 

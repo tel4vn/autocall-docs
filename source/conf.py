@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Autocall'
-copyright = '2020, VHT'
-author = 'VHT'
+copyright = '2020, TEL4VN'
+author = 'TEL4VN'
 
 # The full version, including alpha/beta/rc tags
 release = 'v1.0'
@@ -104,9 +104,9 @@ html_theme_options = {
 					"sidebar_localtoc_title": "Content",
 					"bodyfont": "arial"}
 
-html_logo = os.path.join('_static', 'logo.png')
+html_logo = os.path.join('_static', 'pitel-autocall.png')
 
-html_favicon = os.path.join('_static', 'logo.png')
+html_favicon = os.path.join('_static', 'pitel-autocall.png')
 
 # The api document: extension: relbar_links
 relbar_links_doc = [
